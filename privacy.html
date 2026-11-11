@@ -17,7 +17,7 @@ a{color:var(--accent)}footer{margin-top:40px;padding-top:16px;border-top:1px sol
 <body>
 <main>
 <h1>Privacy policy</h1>
-<p class="sub"><a href="./">Finance planner</a> · last updated 10 November 2026</p>
+<p class="sub"><a href="./">Finance planner</a> · last updated 11 November 2026</p>
 
 <p>Finance planner is a personal tool that runs on its owner's own computer. Its only user is
 its owner, and the only Google account it ever connects to is the owner's own.</p>
@@ -28,8 +28,9 @@ asks Gmail only for alert emails from the bank addresses the owner has listed, a
 each one the date, the merchant or other party, and the amount of a movement.</p>
 
 <h2>How that information is used</h2>
-<p>Only to show the owner their own recent spending in a private dashboard and to sort each
-movement into a budget category.</p>
+<p>Only to show the owner their own recent spending in a private dashboard, to sort each
+movement into a budget category, and to tell the owner when a budget category is nearly used up
+or a credit card has been used.</p>
 
 <h2>Where it is kept</h2>
 <p>Copies of those emails, and the movements read from them, are stored on the owner's computer.
@@ -39,10 +40,12 @@ They are not uploaded to any server run by this project, because there is none.<
 <ul>
 <li>Nothing is sold, and nothing is shared with advertisers or data brokers.</li>
 <li>Nothing is used to develop or train machine-learning models.</li>
-<li>When a movement cannot be sorted automatically, the tool can send the owner a message
-through the owner's own Telegram bot that names the merchant or other party and the date, so the
-owner can choose a category. That message goes only to the owner's own chat and never includes
-an amount or an account number.</li>
+<li>The tool can send the owner three kinds of short message through the owner's own Telegram
+bot: a question that names a merchant or other party and a date, when a movement cannot be sorted
+automatically; a notice that a credit card was used, naming the merchant, the day and the time;
+and a notice that a budget category has used most or all of its monthly budget, naming the
+category and the month. These messages go only to the owner's own chat and never include an
+amount or an account number.</li>
 </ul>
 
 <h2>Google's policy</h2>
